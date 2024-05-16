@@ -1,0 +1,13 @@
+<!--run package TestNGFramework  thông qua file xml -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Login CRM" verbose="1">
+    <test name="LoginTest CRM">
+        <packages>
+            <package name="Bai9_TestNGFramework">
+
+            </package>
+        </packages>
+    </test>
+</suite>

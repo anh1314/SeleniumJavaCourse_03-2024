@@ -1,0 +1,165 @@
+[INFO] 03-05-2024 15:14:09 [TestNG-test-Regression Test-1] LogUtils - 
+ *********testCreateCategory*********
+[INFO] 03-05-2024 15:14:09 [TestNG-test-Regression Test-2] LogUtils - 
+ *********testLogin*********
+[INFO] 03-05-2024 15:14:30 [TestNG-test-Regression Test-1] LogUtils - Open: https://cms.anhtester.com/login
+[INFO] 03-05-2024 15:14:30 [TestNG-test-Regression Test-1] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 03-05-2024 15:14:30 [TestNG-test-Regression Test-1] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 03-05-2024 15:14:31 [TestNG-test-Regression Test-2] LogUtils - Open: https://cms.anhtester.com/login
+[INFO] 03-05-2024 15:14:31 [TestNG-test-Regression Test-2] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 03-05-2024 15:14:31 [TestNG-test-Regression Test-2] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 03-05-2024 15:14:31 [TestNG-test-Regression Test-1] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 03-05-2024 15:14:32 [TestNG-test-Regression Test-1] LogUtils - Click on element  By.xpath: //button[@class='aiz-mobile-toggler']
+[INFO] 03-05-2024 15:14:32 [TestNG-test-Regression Test-1] LogUtils - Click on element  By.xpath: //span[normalize-space()='Products']
+[INFO] 03-05-2024 15:14:32 [TestNG-test-Regression Test-2] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 03-05-2024 15:14:33 [TestNG-test-Regression Test-1] LogUtils - Click on element  By.xpath: //span[normalize-space()='Category']
+[INFO] 03-05-2024 15:14:34 [TestNG-test-Regression Test-2] LogUtils - ==> testLogin is successfully.
+[INFO] 03-05-2024 15:14:35 [TestNG-test-Regression Test-1] LogUtils - ==> testCreateCategory is successfully.
+[INFO] 03-05-2024 15:19:28 [main] LogUtils - 
+ *********testLoginCRM_Success*********
+[INFO] 03-05-2024 15:19:50 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication/
+[INFO] 03-05-2024 15:19:50 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 03-05-2024 15:19:50 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 03-05-2024 15:19:51 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 03-05-2024 15:19:52 [main] LogUtils - ==> testLoginCRM_Success is successfully.
+[INFO] 03-05-2024 15:20:49 [main] LogUtils - 
+ *********testLoginCRM_Success*********
+[ERROR] 03-05-2024 15:20:51 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[ERROR] 03-05-2024 15:20:51 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[INFO] 03-05-2024 15:24:28 [main] LogUtils - 
+ *********testLoginCRM_Fail*********
+[ERROR] 03-05-2024 15:24:30 [main] LogUtils - ==> testLoginCRM_Fail is FAIL.
+[INFO] 03-05-2024 15:25:58 [main] LogUtils - 
+ *********testLoginCRM_Success*********
+[ERROR] 03-05-2024 15:26:00 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[ERROR] 03-05-2024 15:26:00 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[INFO] 03-05-2024 15:26:37 [main] LogUtils - 
+ *********testLoginCRM_Success*********
+[ERROR] 03-05-2024 15:26:38 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[ERROR] 03-05-2024 15:26:38 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[INFO] 03-05-2024 15:29:00 [main] LogUtils - 
+ *********testLoginCRM_Success*********
+[ERROR] 03-05-2024 15:29:01 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[ERROR] 03-05-2024 15:29:01 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[INFO] 03-05-2024 15:40:21 [main] LogUtils - 
+ *********testLoginCRM_Success*********
+[ERROR] 03-05-2024 15:40:23 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[ERROR] 03-05-2024 15:40:23 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[INFO] 03-05-2024 15:42:23 [main] LogUtils - 
+ *********testLoginCRM_Success*********
+[ERROR] 03-05-2024 15:42:24 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[ERROR] 03-05-2024 15:42:24 [main] LogUtils - ==> testLoginCRM_Success is FAIL.
+[INFO] 03-05-2024 15:45:45 [main] LogUtils - 
+ *********testLoginCRM_Success*********
+[INFO] 03-05-2024 15:45:48 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication/
+[INFO] 03-05-2024 15:45:48 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 03-05-2024 15:45:48 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 03-05-2024 15:45:49 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 03-05-2024 15:45:49 [main] LogUtils - ==> testLoginCRM_Success is successfully.
+[INFO] 03-05-2024 15:47:15 [main] LogUtils - 
+ *********testLoginCRM_Success*********
+[INFO] 03-05-2024 15:47:17 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication/
+[INFO] 03-05-2024 15:47:17 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 03-05-2024 15:47:17 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 03-05-2024 15:47:19 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 03-05-2024 15:47:19 [main] LogUtils - ==> testLoginCRM_Success is successfully.
+[INFO] 03-05-2024 19:58:30 [main] LogUtils - 
+ *********testLoginWithPasswordInvalid*********
+[INFO] 03-05-2024 19:58:33 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication/
+[INFO] 03-05-2024 19:58:33 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 03-05-2024 19:58:33 [main] LogUtils - Set text 111111 on input By.xpath: //input[@id='password']
+[INFO] 03-05-2024 19:58:33 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 03-05-2024 19:58:33 [main] LogUtils - Get text of elemet By.xpath: //div[@id='alerts'] is: Invalid email or password
+[INFO] 03-05-2024 19:58:33 [main] LogUtils - ==> testLoginWithPasswordInvalid is successfully.
+[INFO] 03-05-2024 20:01:53 [main] LogUtils - 
+ *********testLoginCRM_Success*********
+[INFO] 03-05-2024 20:01:56 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication/
+[INFO] 03-05-2024 20:01:56 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 03-05-2024 20:01:56 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 03-05-2024 20:01:57 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 03-05-2024 20:01:57 [main] LogUtils - ==> testLoginCRM_Success is successfully.
+[INFO] 03-05-2024 20:02:40 [main] LogUtils - 
+ *********checkTitle*********
+[ERROR] 03-05-2024 20:02:43 [main] LogUtils - ==> checkTitle is FAIL.
+[INFO] 03-05-2024 20:04:24 [main] LogUtils - 
+ *********testCheckDataOnTable_Pagination*********
+[INFO] 03-05-2024 20:04:25 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication
+[INFO] 03-05-2024 20:04:25 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 03-05-2024 20:04:25 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 03-05-2024 20:04:27 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 03-05-2024 20:04:27 [main] LogUtils - Click on element  By.xpath: //span[normalize-space()='Customers']
+[ERROR] 03-05-2024 20:04:27 [main] LogUtils - ==> testCheckDataOnTable_Pagination is FAIL.
+[INFO] 03-05-2024 20:05:08 [main] LogUtils - 
+ *********testUploadFileWithSendKeys*********
+[INFO] 03-05-2024 20:05:10 [main] LogUtils - Open: https://cgi-lib.berkeley.edu/ex/fup.html
+[ERROR] 03-05-2024 20:05:10 [main] LogUtils - ==> testUploadFileWithSendKeys is FAIL.
+[INFO] 04-05-2024 20:02:43 [main] LogUtils - 
+ *********testCheckDataOnTable*********
+[INFO] 04-05-2024 20:02:45 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication
+[INFO] 04-05-2024 20:02:45 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 04-05-2024 20:02:45 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 04-05-2024 20:02:47 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 04-05-2024 20:02:47 [main] LogUtils - Click on element  By.xpath: //span[normalize-space()='Customers']
+[ERROR] 04-05-2024 20:02:57 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[ERROR] 04-05-2024 20:02:57 [main] LogUtils - ==> testCheckDataOnTable is FAIL.
+[INFO] 04-05-2024 20:09:34 [main] LogUtils - 
+ *********testCheckDataOnTable*********
+[INFO] 04-05-2024 20:09:35 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication
+[INFO] 04-05-2024 20:09:35 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 04-05-2024 20:09:35 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 04-05-2024 20:09:36 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 04-05-2024 20:09:37 [main] LogUtils - Click on element  By.xpath: //span[normalize-space()='Customers']
+[INFO] 04-05-2024 20:09:37 [main] LogUtils - Set text Viettel on input By.xpath: //input[@class='form-control input-sm']
+[INFO] 04-05-2024 20:09:40 [main] LogUtils - ==> testCheckDataOnTable is successfully.
+[INFO] 04-05-2024 20:16:33 [main] LogUtils - 
+ *********testCheckDataOnTable_Pagination*********
+[INFO] 04-05-2024 20:16:36 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication
+[INFO] 04-05-2024 20:16:36 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 04-05-2024 20:16:36 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 04-05-2024 20:16:40 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 04-05-2024 20:16:41 [main] LogUtils - Click on element  By.xpath: //span[normalize-space()='Customers']
+[ERROR] 04-05-2024 20:16:41 [main] LogUtils - ==> testCheckDataOnTable_Pagination is FAIL.
+[INFO] 04-05-2024 20:35:08 [main] LogUtils - 
+ *********testCheckDataOnTable_Pagination*********
+[INFO] 04-05-2024 20:35:10 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication
+[INFO] 04-05-2024 20:35:10 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 04-05-2024 20:35:10 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 04-05-2024 20:35:15 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 04-05-2024 20:35:16 [main] LogUtils - Click on element  By.xpath: //span[normalize-space()='Customers']
+[INFO] 04-05-2024 20:35:17 [main] LogUtils - 10
+[INFO] 04-05-2024 20:35:17 [main] LogUtils - Set text Viettel on input By.xpath: //input[@class='form-control input-sm']
+[ERROR] 04-05-2024 20:35:29 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_info']
+[ERROR] 04-05-2024 20:35:29 [main] LogUtils - ==> testCheckDataOnTable_Pagination is FAIL.
+[INFO] 04-05-2024 20:42:17 [main] LogUtils - 
+ *********testCheckDataOnTable_Pagination*********
+[INFO] 04-05-2024 20:42:18 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication
+[INFO] 04-05-2024 20:42:18 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 04-05-2024 20:42:18 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 04-05-2024 20:42:20 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 04-05-2024 20:42:20 [main] LogUtils - Click on element  By.xpath: //span[normalize-space()='Customers']
+[INFO] 04-05-2024 20:42:21 [main] LogUtils - 10
+[INFO] 04-05-2024 20:42:21 [main] LogUtils - Set text Viettel on input By.xpath: //input[@class='form-control input-sm']
+[INFO] 04-05-2024 20:42:23 [main] LogUtils - Get text of elemet By.xpath: //div[@id='clients_info'] is: Showing 1 to 10 of 12 entries (filtered from 179 total entries)
+[INFO] 04-05-2024 20:42:24 [main] LogUtils - Click on element  By.xpath: //a[normalize-space()='Next']
+[INFO] 04-05-2024 20:42:26 [main] LogUtils - ==> testCheckDataOnTable_Pagination is successfully.
+[INFO] 04-05-2024 21:01:08 [main] LogUtils - 
+ *********testCheckDataOnTable_Pagination*********
+[INFO] 04-05-2024 21:01:09 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication
+[INFO] 04-05-2024 21:01:09 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 04-05-2024 21:01:09 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 04-05-2024 21:01:10 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 04-05-2024 21:01:11 [main] LogUtils - Click on element  By.xpath: //span[normalize-space()='Customers']
+[INFO] 04-05-2024 21:01:12 [main] LogUtils - 10
+[INFO] 04-05-2024 21:01:12 [main] LogUtils - Set text Viettel on input By.xpath: //input[@class='form-control input-sm']
+[INFO] 04-05-2024 21:01:14 [main] LogUtils - Get text of elemet By.xpath: //div[@id='clients_info'] is: Showing 1 to 10 of 12 entries (filtered from 179 total entries)
+[INFO] 04-05-2024 21:01:14 [main] LogUtils - Click on element  By.xpath: //a[normalize-space()='Next']
+[INFO] 04-05-2024 21:01:17 [main] LogUtils - ==> testCheckDataOnTable_Pagination is successfully.
+[INFO] 06-05-2024 19:28:32 [main] LogUtils - 
+ *********testLoginSucess*********
+[INFO] 06-05-2024 19:28:34 [main] LogUtils - Open: https://crm.anhtester.com/admin/authentication/
+[INFO] 06-05-2024 19:28:34 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id='email']
+[INFO] 06-05-2024 19:28:34 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id='password']
+[INFO] 06-05-2024 19:28:36 [main] LogUtils - Click on element  By.xpath: //button[normalize-space()='Login']
+[INFO] 06-05-2024 19:28:36 [main] LogUtils - Click on element  By.xpath: //li[contains(@class, 'icon header-user-profile')]
+[INFO] 06-05-2024 19:28:36 [main] LogUtils - Click on element  By.xpath: //ul[@class='dropdown-menu animated fadeIn']//li[@class='header-logout']//a[@href='#'][normalize-space()='Logout']
+[INFO] 06-05-2024 19:28:36 [main] LogUtils - ==> testLoginSucess is successfully.

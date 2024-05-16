@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- run parameters, Multi browser -->
+
+<suite name="Suite Customer" verbose="1">
+    <parameter name="browser" value="chrome"></parameter>    //browser không có hiệu lực do đã truyền parameter vào từng test name
+
+    <test name="Test Customer">
+        <parameter name="browser" value="edge"></parameter>
+      <classes>
+          <class name="Bai20_ThuchanhPOM.Testcases.CustomerTest"> </class>
+      </classes>
+    </test>
+
+    <test name="test Login">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="Bai20_ThuchanhPOM.Testcases.LoginTest"> </class>
+        </classes>
+    </test>
+
+</suite>

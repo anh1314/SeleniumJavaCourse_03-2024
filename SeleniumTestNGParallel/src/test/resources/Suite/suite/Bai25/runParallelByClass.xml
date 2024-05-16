@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--classes: chạy song song cả 2 class nhưng tuần tự theo @Test trong từng class-->
+<!--methods: chạy 6 @Test cùng lúc -->
+<suite name="Parallel Suite All" verbose="1">
+
+    <test name="Regression Test Parallel" parallel="classes">
+        <classes>
+
+            <class name="Bai25_ParallelExecution.ParallelTest"/>
+            <class name="Bai25_ParallelExecution.ParallelTest2"/>
+
+        </classes>
+    </test>
+
+</suite>

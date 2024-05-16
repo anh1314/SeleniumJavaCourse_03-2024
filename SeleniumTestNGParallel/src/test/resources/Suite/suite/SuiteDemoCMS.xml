@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Demo CMS" verbose="1">
+
+    <test name="Regression Test" parallel="methods">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="DemoCMS"/>
+        </classes>
+    </test>
+
+</suite>

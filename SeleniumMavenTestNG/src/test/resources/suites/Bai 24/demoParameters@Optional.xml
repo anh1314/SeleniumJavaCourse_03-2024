@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- run parameters with value default @Optional -->
+
+<suite name="Suite" verbose="1">
+
+    <test name="Test">
+<!--        <parameter name="number 1" value="5"></parameter>-->
+<!--        <parameter name="number 2" value="10"></parameter>-->
+
+      <classes>
+          <class name="Bai24_Parameters_MultiBrowser.demoParameters">
+          </class>
+      </classes>
+
+    </test>
+
+</suite>
